@@ -57,7 +57,7 @@ header {
 main {
     display: flex;
     flex-wrap: wrap;
-    gap: 2em;
+    gap: 1em;
     background-color: var(--cor0); /*#F3F3F3*/
     width: 1060px;
     margin: auto;
@@ -67,7 +67,7 @@ main {
 main > section {
     flex: 3 1 240px;
     margin-top: 30px;
-    margin-left: 35px;
+    margin-left: 45px;
     margin-bottom: 0;
 }
 
@@ -80,12 +80,23 @@ article {
     color: var(--cor3);
 }
 
+.data {
+    display: inline-block;
+    background-color: var(--cor1);
+    padding: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 10px 10px 10px -15px;
+}
+
 article > h2 {
     display: none;
 }
 
 .img-article {
     display: block;
+    width: 630px;
     margin: auto;
     margin-bottom: 20px;
     padding: 5px;
@@ -95,6 +106,7 @@ article > h2 {
 
 .desc {
     line-height: 18px;
+    margin-left: -15px;
 }
 
 .cont-lendo {
@@ -103,6 +115,7 @@ article > h2 {
     width: 115px;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: -15px;
     text-decoration: none;
     color: var(--cor4);
 }
@@ -120,6 +133,7 @@ article > aside {
     display: block;
     background-color: var(--cor1);
     padding: 5px 10px;
+    margin-left: -15px;
     width: 100%;
     color: var(--cor4);
     font-size: 0.88em;
@@ -178,7 +192,7 @@ aside#aside-lateral {
 }
 
 .ps-item {
-    background-color: var(--cor1);
+    background-color: transparent;
     margin-bottom: 15px;
     padding: 5px;
 }
