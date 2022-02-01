@@ -80,6 +80,10 @@ article {
     color: var(--cor3);
 }
 
+article > h2 {
+    display: none;
+}
+
 .img-article {
     display: block;
     margin: auto;
