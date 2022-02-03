@@ -239,42 +239,88 @@ aside#aside-lateral {
     border: 2px dashed black;
 }
 
+hr {
+    display: block;
+    width: 90%;
+    margin: 5px auto;
+}
+
 /* aside inferior*/
 aside#aside-inferior {
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 1em;
+    
     margin: 0 auto;
     margin-bottom: 0;
     width: 1080px;
+    background-color: cornflowerblue;
+}
+
+div#gambiarra-principal {
+    display: block;
+    margin: auto;
+    width: 960px;
+}
+
+div#gambiarra-secundaria {
     background-color: yellow;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 2em;
 }
 
 section h3 {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     font-size: 12px;
     font-weight: bold;
 }
 
 aside#aside-inferior section {
-    background-color: cornflowerblue;
-    padding: 10px;
+    background-color: white;
+    margin: 0;
 }
 
 section#sec-parceiros {
-    width: 300px;
+    width: 470px;
     list-style-position: inside;
+    font-size: 12px;
+    padding: 5px;
+}
+
+section#sec-parceiros ul {
+    margin-top: 10px;
+    line-height: 18px;
+}
+
+section#sec-parceiros a {
+    color: var(--cor3);
+    text-decoration: none;
+}
+
+section#sec-parceiros a:hover {
+    text-decoration: underline;
+    color: var(--cor4);
+}
+
+div#gambiarra-flex {
+    background-color: transparent;
+    
 }
 
 section#sec-tags {
-    width: 400px;
+    width: 460px;
 }
 
 section#sec-views {
-    width: 400px;
+    width: 460px;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--cor4);
+}
+
+section#sec-views p {
+    padding-top: 10px;
 }
 
 /* footer */
