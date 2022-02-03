@@ -54,6 +54,11 @@ header {
     
 }
 
+header img {
+    margin: auto;
+    margin-left: 55px;
+}
+
 main {
     display: flex;
     flex-wrap: wrap;
@@ -236,16 +241,27 @@ aside#aside-lateral {
 
 /* aside inferior*/
 aside#aside-inferior {
-    display: block;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1em;
     margin: 0 auto;
     margin-bottom: 0;
     width: 1080px;
-    background-color: var(--cor0);
+    background-color: yellow;
 }
 
-aside#aside-inferior > section {
+section h3 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+aside#aside-inferior section {
     background-color: cornflowerblue;
-    margin: auto;
+    padding: 10px;
 }
 
 section#sec-parceiros {
@@ -258,7 +274,7 @@ section#sec-tags {
 }
 
 section#sec-views {
-    width: 300px;
+    width: 400px;
 }
 
 /* footer */
