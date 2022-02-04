@@ -296,13 +296,13 @@ section#sec-parceiros ul {
 }
 
 section#sec-parceiros a {
-    color: var(--cor3);
+    color: black;
     text-decoration: none;
 }
 
 section#sec-parceiros a:hover {
     text-decoration: underline;
-    color: var(--cor4);
+    color: var(--cor3);
 }
 
 div#gambiarra-flex {
