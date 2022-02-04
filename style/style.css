@@ -240,6 +240,7 @@ aside#aside-lateral {
 }
 
 hr {
+    color: #bbbbbb;
     display: block;
     width: 90%;
     margin: 5px auto;
@@ -247,9 +248,7 @@ hr {
 
 /* aside inferior*/
 aside#aside-inferior {
-    
     margin: 0 auto;
-    margin-bottom: 0;
     width: 1080px;
     background-color: cornflowerblue;
 }
@@ -257,21 +256,22 @@ aside#aside-inferior {
 div#gambiarra-principal {
     display: block;
     margin: auto;
-    width: 960px;
+    width: 945px;
 }
 
 div#gambiarra-secundaria {
     background-color: yellow;
     display: flex;
     flex-wrap: nowrap;
-    gap: 2em;
+    gap: 1em;
 }
+
 
 section h3 {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
     font-size: 12px;
     font-weight: bold;
 }
@@ -282,10 +282,11 @@ aside#aside-inferior section {
 }
 
 section#sec-parceiros {
+    height: 250px;
+    display: block;
     width: 470px;
     list-style-position: inside;
     font-size: 12px;
-    padding: 5px;
 }
 
 section#sec-parceiros ul {
@@ -304,12 +305,16 @@ section#sec-parceiros a:hover {
 }
 
 div#gambiarra-flex {
-    background-color: transparent;
-    
+    background-color: aqua;
+    margin: 0;  
 }
 
 section#sec-tags {
     width: 460px;
+}
+
+section#sec-tags p {
+    margin-top: 10px;
 }
 
 section#sec-views {
