@@ -243,14 +243,15 @@ hr {
     color: #bbbbbb;
     display: block;
     width: 90%;
-    margin: 5px auto;
+    margin: 20px auto;
 }
 
 /* aside inferior*/
 aside#aside-inferior {
     margin: 0 auto;
     width: 1080px;
-    background-color: cornflowerblue;
+    background-color: var(--cor0);
+    padding-bottom: 20px;
 }
 
 div#gambiarra-principal {
@@ -260,10 +261,10 @@ div#gambiarra-principal {
 }
 
 div#gambiarra-secundaria {
-    background-color: yellow;
+    background-color: transparent;
     display: flex;
     flex-wrap: nowrap;
-    gap: 1em;
+    gap: 2em;
 }
 
 
@@ -277,12 +278,12 @@ section h3 {
 }
 
 aside#aside-inferior section {
-    background-color: white;
+    background-color: var(--cor0);
     margin: 0;
 }
 
 section#sec-parceiros {
-    height: 250px;
+    height: 275px;
     display: block;
     width: 470px;
     list-style-position: inside;
@@ -305,12 +306,50 @@ section#sec-parceiros a:hover {
 }
 
 div#gambiarra-flex {
-    background-color: aqua;
+    background-color: transparent;
     margin: 0;  
 }
 
 section#sec-tags {
     width: 460px;
+}
+
+section#sec-tags p {
+    width: 440px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: justify;
+    line-height: 17.3px;
+}
+
+.text-19px {
+    font-size: 19px;
+}
+
+.text-14px {
+    font-size: 14px;
+}
+
+.text-12px {
+    font-size: 12px;
+}
+
+.text-10px {
+    font-size: 10px;
+}
+
+.text-09px {
+    font-size: 9px;
+}
+
+section#sec-tags p a {
+    text-decoration: none;
+    color: black;
+}
+
+section#sec-tags p a:hover {
+    color: var(--cor3);
+    text-decoration: underline;
 }
 
 section#sec-tags p {
