@@ -281,7 +281,8 @@ section div#item-participe p {
 }
 
 .lt-item:hover {
-    border: 2px dashed black;
+    border: 1px dashed black;
+    padding: 1px;
 }
 
 hr {
