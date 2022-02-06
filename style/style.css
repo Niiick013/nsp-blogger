@@ -155,6 +155,30 @@ article > aside a:hover {
     color: var(--cor3);
 }
 
+div#nav-inferior {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 12px;
+}
+
+a#txt-pi {
+    text-align: center;
+}
+
+a#txt-pa {
+    float: right;
+}
+
+a#txt-pi, a#txt-pa {
+    color: black;
+    text-decoration: none;
+}
+
+a#txt-pi:hover, a#txt-pa:hover {
+    text-decoration: underline;
+    color: var(--cor3);
+}
+
 /* aside lateral */
 aside#aside-lateral {
     flex: 1 1 160px;
@@ -185,7 +209,7 @@ aside#aside-lateral {
 }
 
 #aside-lateral section a {
-    color: var(--cor3);
+    color: black;
     font-size: 12px;
     line-height: 18px;
     text-decoration: none;
@@ -193,7 +217,7 @@ aside#aside-lateral {
 
 #aside-lateral section a:hover {
     text-decoration: underline;
-    color: var(--cor4);
+    color: var(--cor3);
 }
 
 .ps-item {
@@ -365,6 +389,7 @@ section#sec-views {
 
 section#sec-views p {
     padding-top: 10px;
+    text-align: left;
 }
 
 /* footer */
