@@ -1,4 +1,3 @@
-<script src="https://kit.fontawesome.com/7713e05d40.js" crossorigin="anonymous"></script>
 # nsp-blogger
 
 <p>Projeto inpirado no blog Não é minha culpa que não sou popular
@@ -11,10 +10,10 @@ na plataforma.</p>
 <hr>
 <p>Tecnologias utilizadas no desenvolvimento do projeto:</p>
 <ul>
-    <li><a href="#">HTML</a></li> <i class="fab fa-html5"></i>
-    <li><a href="#">CSS</a></li> <i class="fab fa-css3-alt"></i>
-    <li><a href="#">Git</a></li> <i class="fab fa-git-alt"></i>
-    <li><a href="#">GitHub</a></li> <i class="fab fa-github"></i>
+    <li><a href="#">HTML</a></li>
+    <li><a href="#">CSS</a></li>
+    <li><a href="#">Git</a></li>
+    <li><a href="#">GitHub</a></li>
 </ul>
 
 ## ☕ Rodando o Front-end
@@ -22,7 +21,7 @@ na plataforma.</p>
 
 ```bash
 # Clone o repositório
-$ git clone <https://github.com/Niiick013/nsp-blogger.git>
+$ git clone https://github.com/Niiick013/nsp-blogger.git
 
 # Acesse a pasta do projeto no Terminal / cmd
 $ cd nsp-blogger
