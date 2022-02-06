@@ -188,24 +188,42 @@ aside#aside-lateral {
 }
 
 div#search-box {
-    background-color: lightcoral;
     position: relative;
     width: 255px;
     margin: 25px auto 30px auto;
 }
 
+input#search-txt {
+    background-color: var(--cor1);
+    padding: 7px;
+    margin: 0;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+input#search-txt::placeholder {
+    color: white;
+}
+
+input#search-txt:focus-visible {
+    background-color: var(--cor2);
+}
+
+/* clears the 'X' from Chrome */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
+
 div#search-box i {
-    background-color: lightgreen;
     position: absolute;
-    color: blue;
     top: 10%;
     right: 75px;
     padding: 5px;
-}
-
-input#search-txt {
-    padding: 5px;
-    margin: 0;
+    color: white;
 }
 
 button#search-btn {
