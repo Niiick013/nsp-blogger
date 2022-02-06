@@ -71,7 +71,7 @@ main {
 
 main > section {
     flex: 3 1 240px;
-    margin-top: 30px;
+    margin-top: 0;
     margin-left: 45px;
     margin-bottom: 0;
 }
@@ -92,7 +92,7 @@ article {
     font-size: 10px;
     font-weight: bold;
     letter-spacing: 2px;
-    margin: 10px 10px 10px -15px;
+    margin: 0px 10px 10px -15px;
 }
 
 article > h2 {
@@ -185,6 +185,39 @@ aside#aside-lateral {
     margin-top: 30px;
     margin-right: 20px;
     background-color: var(--cor0);
+}
+
+div#search-box {
+    background-color: lightcoral;
+    position: relative;
+    width: 255px;
+    margin: 25px auto 30px auto;
+}
+
+div#search-box i {
+    background-color: lightgreen;
+    position: absolute;
+    color: blue;
+    top: 10%;
+    right: 75px;
+    padding: 5px;
+}
+
+input#search-txt {
+    padding: 5px;
+    margin: 0;
+}
+
+button#search-btn {
+    background-color: black;
+    position: absolute;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+    outline: none;
+    margin-left: -5;
+    cursor: pointer;
 }
 
 #aside-lateral section {
