@@ -6,12 +6,12 @@
 <ul>
     <li>Página inicial com apresentação, últimas postagens, links e conteúdo da autora.</li>
     <li>🖱️ <a href="https://marceloisidorio.github.io/nsp-blogger/" target="_blank">Clique aqui</a> para acessar o site.</li>
-    <li>Confira também o <a href="http://naoeminhaculpaquenaosoupopular.blogspot.com">Blog Oficial</a></li>
+    <li>Confira também o <a href="http://naoeminhaculpaquenaosoupopular.blogspot.com">Blog Oficial</a>:earth_americas:</li>
 </ul>
 
 ## 🖼 Screenshot do site original
 <img src="images/site-oficial.png" alt="Site Oficial" width="900"></img>
-## Tecnologias utilizadas
+## :rocket:	Tecnologias utilizadas
 
 <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML" width="100" height="100">
