@@ -6,9 +6,10 @@
 <ul>
     <li>Página inicial com apresentação, últimas postagens, links e conteúdo da autora.</li>
     <li>🖱️ <a href="https://marceloisidorio.github.io/nsp-blogger/" target="_blank">Clique aqui</a> para acessar o site.</li>
+    <li>Confira também o <a href="http://naoeminhaculpaquenaosoupopular.blogspot.com">Blog Oficial</a></li>
 </ul>
 
-## 🖼 Screenshot do site oficial
+## 🖼 Screenshot do site original
 <img src="images/site-oficial.png" alt="Site Oficial" width="900"></img>
 ## Tecnologias utilizadas
 
@@ -20,8 +21,13 @@
     <img alt="CSS" height="100" width="100" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 </a>
 
-### :memo: Funcionalidades
-
+### :memo: Sobre
+- Destaca o cabeçalho com menu e apresentação da marca
+- Exibe as últimas postagens publicadas
+- Possui barra de pesquisa
+- Contém barra lateral com conteúdos periféricos
+- Aside inferior e footer no fim da página
+- Efeitos em links e caixas
 # :hammer_and_wrench: Como rodar localmente
 
 ```bash
@@ -30,7 +36,7 @@ $ git clone https://github.com/marceloisidorio/nsp-blogger.git
 
 # Acesse a pasta do projeto
 
-# Execute o arquivo index.html no navegador de sua preferência
+# Execute o arquivo "index.html" no navegador de sua preferência
 ```
 
 ## :pushpin: Como contruibuir
@@ -45,9 +51,16 @@ $ git clone https://github.com/marceloisidorio/nsp-blogger.git
     <tr>
         <td align="center">
             <a href="https://github.com/marceloisidorio">
-                <img src="https://avatars.githubusercontent.com/u/98700480?v=4" alt="Image do Marcelo Isidorio" width="150px"/>
+                <img src="https://avatars.githubusercontent.com/u/98700480?v=4" alt="Image do Marcelo Isidorio" width="150px" height=""/>
                 <br>
                 <sub><b>Marcelo Isidorio</b></sub>
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://linktr.ee/naosoupopularrr">
+                <img src="https://scontent.fcgh10-1.fna.fbcdn.net/v/t1.6435-9/p960x960/99113934_2703015236623908_2205287607087136768_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=8631f5&_nc_ohc=UhHYPww5qscAX_xbVFx&_nc_ht=scontent.fcgh10-1.fna&oh=00_AT9gSCLvbESE8swOc-p3JqgiPZzggAoJK6T7sw99CsTmzg&oe=622C1932" alt="Image do Blog Não é minha culpa que não sou popular" width="150px" height=""/>
+                <br>
+                <sub><b>Mônica</b></sub>
             </a>
         </td>
     </tr>
