@@ -5,11 +5,11 @@
 ## 🔖 Informações
 <ul>
     <li>Página inicial com apresentação, últimas postagens, links e conteúdo da autora.</li>
-    <li>🖱️<a href="https://marceloisidorio.github.io/nsp-blogger/" target="_blank">Clique aqui</a> para acessar o site.</li>
+    <li>🖱️ <a href="https://marceloisidorio.github.io/nsp-blogger/" target="_blank">Clique aqui</a> para acessar o site.</li>
 </ul>
 
 ## 🖼 Screenshot do site oficial
-<img src="images/site-oficial.png" alt="Site Oficial" width="700"></img>
+<img src="images/site-oficial.png" alt="Site Oficial" width="900"></img>
 ## Tecnologias utilizadas
 
 <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">
@@ -22,17 +22,28 @@
 
 ### :memo: Funcionalidades
 
-## ☕ Rodando o Front-end
+# :hammer_and_wrench: Como rodar localmente
 
 ```bash
 # Clone o repositório
-$ git clone https://github.com/Niiick013/nsp-blogger.git
+$ git clone https://github.com/marceloisidorio/nsp-blogger.git
 
-# Acesse a pasta do projeto no Terminal / cmd
-$ cd nsp-blogger
+# Acesse a pasta do projeto
 
-
+# Execute o arquivo index.html no navegador de sua preferência
 ```
 
-<hr>
-<p style="text-align: center;">Readme em construção...</p>
+## :pushpin: Como contruibuir
+
+## :mortar_board: Autores
+<table align="center">
+    <tr>
+        <td align="center">
+            <a href="https://github.com/marceloisidorio">
+                <img src="https://avatars.githubusercontent.com/u/98700480?v=4" alt="Image do Marcelo Isidorio" width="150px"/>
+                <br>
+                <sub><b>Marcelo Isidorio</b></sub>
+            </a>
+        </td>
+    </tr>
+</table>
