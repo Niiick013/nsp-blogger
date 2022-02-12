@@ -49,7 +49,7 @@ $ git clone https://github.com/marceloisidorio/nsp-blogger.git
 ## :mortar_board: Autores
 <table align="center">
     <tr>
-        <td align="center">
+        <td align="center" style="margin: 15px;">
             <a href="https://github.com/marceloisidorio">
                 <img src="https://avatars.githubusercontent.com/u/98700480?v=4" alt="Image do Marcelo Isidorio" width="150px" height=""/>
                 <br>
