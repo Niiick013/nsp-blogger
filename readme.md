@@ -3,23 +3,20 @@
 </h3>
 
 ## 🔖 Informações
+<ul>
+    <li>Página inicial com apresentação, últimas postagens, links e conteúdo da autora.</li>
+    <li>🖱️<a href="https://marceloisidorio.github.io/nsp-blogger/" target="_blank">Clique aqui</a> para acessar o site.</li>
+</ul>
 
-
-
-<p align="justify">Projeto inpirado no blog Não é minha culpa que não sou popular no intuito de aperfeiçoar minhas meus conhecimentos e habilidades no desenvolvimento web
-e de certa forma homenagear a autora Mônica pelo seu grande trabalho ao longo de sua tragetória
-na plataforma.</p>
-
-<img src="images/capa-blog.png" alt="" style="display: block; background-color: white; width: 800px;"></img>
-<br>
-
+## 🖼 Screenshot do site oficial
+<img src="images/site-oficial.png" alt="Site Oficial" width="700"></img>
 ## Tecnologias utilizadas
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML" width="100" height="100">
 </a>
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank">
     <img alt="CSS" height="100" width="100" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 </a>
 
