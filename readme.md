@@ -58,7 +58,7 @@ $ git clone https://github.com/marceloisidorio/nsp-blogger.git
         </td>
         <td align="center">
             <a href="https://linktr.ee/naosoupopularrr">
-                <img src="#" width="150px" height=""/>
+                <img src="images/monica-perfil.jpg" alt="Imagem de Mônica" width="150px" height=""/>
                 <br>
                 <sub><b>Mônica</b></sub>
             </a>
