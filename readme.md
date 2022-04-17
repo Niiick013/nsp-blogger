@@ -51,14 +51,14 @@ $ git clone https://github.com/marceloisidorio/nsp-blogger.git
     <tr>
         <td align="center" style="margin: 15px;">
             <a href="https://github.com/marceloisidorio">
-                <img src="https://avatars.githubusercontent.com/u/98700480?v=4" alt="Image do Marcelo Isidorio" width="150px" height=""/>
+                <img src="https://avatars.githubusercontent.com/u/98700480?v=4" alt="Imagem de Marcelo Isidorio" width="150px" height=""/>
                 <br>
                 <sub><b>Marcelo Isidorio</b></sub>
             </a>
         </td>
         <td align="center">
             <a href="https://linktr.ee/naosoupopularrr">
-                <img src="https://scontent.fcgh10-1.fna.fbcdn.net/v/t1.6435-9/p960x960/99113934_2703015236623908_2205287607087136768_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=8631f5&_nc_ohc=UhHYPww5qscAX_xbVFx&_nc_ht=scontent.fcgh10-1.fna&oh=00_AT9gSCLvbESE8swOc-p3JqgiPZzggAoJK6T7sw99CsTmzg&oe=622C1932" alt="Image do Blog Não é minha culpa que não sou popular" width="150px" height=""/>
+                <img src="#" width="150px" height=""/>
                 <br>
                 <sub><b>Mônica</b></sub>
             </a>
