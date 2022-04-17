@@ -5,7 +5,7 @@
 ## 🔖 Informações
 <ul>
     <li>Página inicial com apresentação, últimas postagens, links e conteúdo da autora.</li>
-    <li>🖱️ <a href="https://marceloisidorio.github.io/nsp-blogger/" target="_blank">Clique aqui</a> para acessar o site.</li>
+    <li>🖱️ <a href="https://marceloisidorio.github.io/nsp-blogger/" target="_blank">Clique aqui</a> para acessar o projeto.</li>
     <li>Confira também o <a href="http://naoeminhaculpaquenaosoupopular.blogspot.com">Blog Oficial</a> :earth_americas:</li>
 </ul>
 
