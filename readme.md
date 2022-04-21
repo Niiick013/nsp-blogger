@@ -1,6 +1,6 @@
-<h1 align="center">
+<h2 align="center">
     :heavy_check_mark:Página modelo do Blog Não é minha culpa que não sou popular
-</h1>
+</h2>
 
 ## 🔖 Informações
 <ul>
