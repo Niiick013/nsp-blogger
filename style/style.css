@@ -23,11 +23,13 @@ body {
 /* header */
 span#burguer {
     cursor: pointer;
-    padding: 10px;
+    padding: 8px;
     color: white;
     display: block;
     text-align: center;
     background-color: black;
+    box-sizing: border-box;
+    border: 2px solid black;
 }
 
 span#burguer:hover {
@@ -36,8 +38,7 @@ span#burguer:hover {
 }
 
 menu {
-    display: none;
-    
+    display: none;    
 }
 
 menu > ul {
@@ -68,7 +69,7 @@ picture#img-header img {
     background-color: var(--cor0);
 }
 
-/* main#content */
+/* main */
 main {
     width: 90vw;
     margin: auto;
@@ -76,6 +77,7 @@ main {
     background-color: var(--cor0);
 }
 
+/* content-main */
 section#content-main {
     width: 100%;
 }
@@ -152,9 +154,123 @@ article > aside a:hover {
     text-decoration: underline;
 }
 
+/* content-aside */
+aside#content-aside {
+    width: 100%;
+}
+
+aside#content-aside h2 {
+    display: block;
+    cursor: pointer;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    background-color: black;
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin-top: 5px;
+}
+
+aside#content-aside h2:hover {
+    color: black;
+    background-color: whitesmoke;
+}
+
+aside#content-aside article ul {
+    display: none;
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+aside#content-aside article ul li {
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+    border-top: 2px solid gray;
+}
+
+aside#content-aside article ul li a {
+    display: block;
+    padding: 5px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 18px;
+    text-decoration: none;
+    
+}
+
+aside#content-aside article > ul > li > a:hover {
+    background-color: rgb(90, 90, 90);
+    
+}
+
+div#psItens {
+    display: none;
+}
+
+div.ps-item {
+    margin-top: 5px;
+    
+}
+
+div.ps-item a {
+    color: black;
+    padding: 5px 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+
+div.ps-item a:hover {
+    background-color: white;
+    border: 2px solid black;
+}
+
+div.ps-item h4 {
+    margin-top: 25px;
+    margin-left: 10px;
+    height: 30px;
+    font-size: 13px;
+    font-weight: normal;
+    
+}
+
+section#ltcontainer {
+    display: none;
+    width: 100%;
+    margin: auto;
+}
+
+div#lt-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lt-item {
+    box-sizing: border-box;
+    margin-top: 13px;
+    margin-left: 13px;
+    border: 2px solid black;
+}
+
+.lt-item:hover {
+    border: 2px dashed black;
+}
+
+.lt-item img {
+    width: 100%;
+    height: 100%;
+}
+
 /* footer  */
 footer {
-    padding: 10px 0px;
+    margin-top: 10px;
+    padding: 10px 0;
     font-size: 12px;
     font-weight: 545;
     text-align: center;
