@@ -4,29 +4,35 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- favicon da página -->
         <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-        <script src="https://kit.fontawesome.com/7713e05d40.js" crossorigin="anonymous"></script>
+        <!-- estilo mobile first -->
         <link rel="stylesheet" href="style/style.css">
+         <!-- biblioteca de fontes e ícones do google -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <title>Não é minha culpa que não sou popular!</title>
     </head>
     <body>
-        <nav>
-            <a href="#">INÍCIO</a>
-            <a href="#">SOBRE</a>
-            <a href="#">RESENHAS</a>
-            <a href="#">NSP RECOMENDA</a>
-            <a href="#">INFORMAÇÕES</a>
-        </nav>
+        <header> <!-- cabeçalho -->
+            <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+            <menu id="navbar">
+                <ul>
+                    <li><a href="#">INÍCIO</a></li>
+                    <li><a href="#">SOBRE</a></li>
+                    <li><a href="#">RESENHAS</a></li>
+                    <li><a href="#">NSP RECOMENDA</a></li>
+                    <li><a href="#">INFORMAÇÕES</a></li>
+                </ul>
+            </menu>
 
-        <header>
-            <picture>
+            <picture id="img-header">
                 <a href="#"><img src="images/capa-blog.png" alt="Capa do Blog"></a>
             </picture>
         </header>
 
-        <main>
-            <section>
-                <article> <!-- Article 01 -->
+        <main id="content"> <!-- conteúdo principal -->
+            <section id="content-main">
+                <article> <!-- article 01 -->
                     <div class="data">12/01/2022</div>
                     <h2>Resenha: Smile Precure! - Anime</h2>
 
@@ -34,7 +40,8 @@
                         <a href="#"><img class="img-article" src="images/smile-precure-anime.png" alt="Smile Precure"></a>
                     </picture>
 
-                    <p class="desc"><b>Informações</b><br>
+                    <p class="desc">
+                        <b>Informações</b><br>
                         <b>Nome:</b> Smile Procure!<br>
                         <b>Episódios:</b> 48<br>
                         <b>Lançamento:</b> 2012<br>
@@ -49,6 +56,7 @@
                         <p>Tags: <a href="#">Anime</a>, <a href="#">Ação</a>, <a href="#">Comédia</a>, <a href="#">Fantasia</a>, <a href="#">Resenha</a>, <a href="#">Shoujo</a>, <a href="#">Smile Precure!</a></p>
                     </aside>
                 </article>
+
                 <article> <!-- Article 02 -->
                     <div class="data">07/01/2022</div>
                     <h2>Resenha: Komi-san wa, Comyushou desu - Anime</h2>
@@ -71,6 +79,7 @@
                         <p>Tags: <a href="#">Anime</a>, <a href="#">Comédia</a>, <a href="#">Comyushou desu</a>, <a href="#">Escolar</a>, <a href="#">Komi-san wa</a>, <a href="#">Resenha</a>, <a href="">Romance</a>, <a href="#">Shounen</a>, <a href="#">Slice of Life</a></p>
                     </aside>
                 </article>
+                
                 <article> <!-- Article 03 -->
                     <div class="data">22/12/2021</div>
                     <h2>Resenha: Mieruko-chan - Anime</h2>
@@ -116,6 +125,7 @@
                         <p>Tags: <a href="#">Anime</a>, <a href="#">Ação</a>, <a href="#">Drama</a>, <a href="#">Suspense</a>, <a href="#">Resenha</a>, <a href="#">Super Crooks</a></p>
                     </aside>
                 </article>
+
                 <article> <!-- Article 05 -->
                     <div class="data">20/12/2021</div>
                     <h2>Resenha: Sankaku Mado no Sotogawa wa Yoru - Anime</h2>
@@ -138,237 +148,27 @@
                         <p>Tags: <a href="#">Anime</a>, <a href="#">Drama</a>, <a href="#">Horror</a>, <a href="#">Mistério</a>, <a href="#">Sobrenatural</a>, <a href="#">Shounen Ai</a>, <a href="#">Resenha</a>, <a href="">Sankaku Mado no Sotoga wa Yoru</a></p>
                     </aside>
                 </article>
-
-                <div id="nav-inferior">
-                    <a href="#" id="txt-pi">Página inicial</a>
-                    <a href="#" id="txt-pa">Postagens mais antigas</a>
-                </div>
             </section>
-
-            <aside id="aside-lateral"> <!-- Aside Lateral -->
-                <div id="search-box">
-                    <input type="search" name="Search Box" id="search-txt" placeholder="Pesquise aqui!">
-                    <i class="fas fa-search"></i>
-                    <button type="submit" id="search-btn">BUSCAR</button>
-                </div>
-
-                <section>
-                    <h2>PARTICIPE!</h2>
-                    <div id="item-participe">
-                        
-                    </div>
-                </section>
-
-                <section>
-                    <h2>LINKS</h2>
-                    <ul>
-                        <li><a href="https://linktr.ee/naosoupopularrr" target="_blank">Linktree</a></li>
-                        <li><a href="https://twitter.com/naosoupopularrr" target="_blank">Twitter</a></li>
-                        <li><a href="https://web.facebook.com/groups/naoeminhaculpaquenaosoupopular/?_rdc=1&_rdr" target="_blank">Grupo</a></li>
-                        <li><a href="https://www.youtube.com/channel/UCX-El_svYgI6M7-lCakb8Pg" target="_blank">YouTube</a></li>
-                        <li><a href="https://myanimelist.net/profile/naosoupopularrr" target="_blank">My Anime List</a></li>
-                        <li><a href="https://mydramalist.com/profile/naosoupopularrr" target="_blank">My Drama List</a></li>
-                    </ul>
-                </section>
-        
-                <section>
-                    <h2>POPULARES DA SEMANA</h2>
-                    <div class="ps-item">
-                        <a href="#">
-                            <img src="images/capa-post-quadrinhos-avatar.png" alt="Capa de Avatar: A Lenda de Aang">
-                            <h4>Quadrinhos de Avatar: A Lenda de Aang</h4>
-                        </a>
-                    </div>
-
-                    <div class="ps-item">
-                        <a href="#">
-                            <img src="images/capa-shounen-maid-anime.png" alt="Capa de Shounen Maid">
-
-                            <h4>Resenha: Shounen Maid - Anime</h4>
-                        </a>
-                    </div>
-        
-                    <div class="ps-item">
-                        <a href="#">
-                            <img src="images/capa-post-boku-no-pico-anime.png" alt="Capa de Boku no Pico">
-                            <h4>Resenha: Boku no Pico - Anime</h4>
-                        </a>
-                    </div>
-
-                    <div class="ps-item">
-                        <a href="#">
-                            <img src="images/capa-yandere.png" alt="Capa do Post: O que significa yandere?">
-
-                            <h4>O que significa yandere?</h4>
-                        </a>
-                    </div>
-
-                    <div class="ps-item">
-                        <a href="#">
-                            <img src="images/capa-yaoi-yuri.png" alt="Capa de post Yaoi e Yuri">
-
-                            <h4>Como são chamados os fãs de Yaoi e Yuri?</h4>
-                        </a>
-                    </div>
-
-                    <div class="ps-item">
-                        <a href="#">
-                            <img src="images/capa-vanitas-anime.png" alt="Capa de Vanitas Anime">
-
-                            <h4>Resenha: Vanitas no Karte - Anime</h4>
-                        </a>
-                    </div>
-
-                    <div class="ps-item">
-                        <a href="#">
-                            <img src="images/capa-watashi-ga-motete-dousunda-anime.png" alt="Capa de Watashi ga Motete Dousunda">
-
-                            <h4>Resenha: Watashi ga Motete Dousunda - Snime</h4>
-                        </a>
-                    </div>
-
-                    <div class="ps-item">
-                        <a href="#">
-                            <img src="images/capa-kuzu-no-honkai-anime.png" alt="Capa de Kuzu no Honkai">
-
-                            <h4>Resenha: Kuzu no Honkai - Anime</h4>
-                        </a>
-                    </div>
-        
-                    <div class="ps-item">
-                        <a href="#">
-                            <img src="images/capa-post-tudo-sobre-blood.png" alt="Capa de Blood">
-                            <h4>Tudo sobre a franquia Blood</h4>
-                        </a>
-                    </div>
-        
-                    <div class="ps-item">
-                        <a href="#">
-                            <img src="images/capa-mieruko-chan-anime.png" alt="Capa Mieruko-chan">
-
-                            <h4>Resenha: Mieruko-chan - Anime</h4>
-                        </a>
-                    </div>
-                </section>
-        
-                <section>
-                    <h2>LEIA TAMBÉM</h2>
-                    <section id="lt-items">
-                        <div class="lt-item">
-                            <a href="#">
-                                <img src="images/lt-01.png" alt="Resenha: Sankaku Mado no Sotogawa Wa Yoru">
-                            </a>
-                        </div>
-
-                        <div class="lt-item">
-                            <a href="#">
-                                <img src="images/lt-02.png" alt="02">
-                            </a>
-                        </div>
-
-                        <div class="lt-item">
-                            <a href="#">
-                                <img src="images/lt-03.png" alt="03">
-                            </a>
-                        </div>
-
-                        <div class="lt-item">
-                            <a href="#">
-                                <img src="images/lt-04.png" alt="04">
-                            </a>
-                        </div>
-
-                        <div class="lt-item">
-                            <a href="#">
-                                <img src="images/lt-05.png" alt="05">
-                            </a>
-                        </div>
-
-                        <div class="lt-item">
-                            <a href="#">
-                                <img src="images/lt-06.png" alt="06">
-                            </a>
-                        </div>
-
-                        <div class="lt-item">
-                            <a href="#">
-                                <img src="images/lt-07.png" alt="07">
-                            </a>
-                        </div>
-
-                        <div class="lt-item">
-                            <a href="#">
-                                <img src="images/lt-08.png" alt="08">
-                            </a>
-                        </div>
-
-                        <div class="lt-item">
-                            <a href="#">
-                                <img src="images/lt-09.png" alt="09">
-                            </a>
-                        </div>
-
-                        <div class="lt-item">
-                            <a href="#">
-                                <img src="images/lt-10.png" alt="10">
-                            </a>
-                        </div>
-                    </section>
-                </section>
-            </aside>
-
-            <hr>
         </main>
 
         <aside id="aside-inferior"> <!-- Aside Inferior -->
-            <div id="gambiarra-principal">
-                <div id="gambiarra-secundaria">
-                    <section id="sec-parceiros">
-                        <h3>PARCEIROS</h3>
-                        <ul>
-                            <li><a href="http://www.animecot.com" target="_blank">AnimeCote</a></li>
-                            <li><a href="https://animesgratis.net" target="_blank">Animes Online</a></li>
-                            <li><a href="https://evangelionbr.com" target="_blank">Evangelion BR</a></li>
-                            <li><a href="https://hacchifansub.net" target="_blank">Hacchi Fansub</a></li>
-                            <li><a href="http://inanimewetrust.blogspot.com" target="_blank">In Anime We Trust</a></li>
-                            <li><a href="https://mangalivre.com.br" target="_blank">Mangá Livre RS</a></li>
-                            <li><a href="https://maniasdeumagarotasingular.blogspot.com" target="_blank">MDUGS</a></li>
-                            <li><a href="https://www.netoin.com" target="_blank">NETOIN!</a></li>
-                            <li><a href="http://otometeatime.blogspot.com/" target="_blank">Otome Tea Time!</a></li>
-                            <li><a href="http://shinkai.fansubs.com.br" target="_blank">Shinkai Fansub</a></li>
-                            <li><a href="https://www.youtube.com/user/TsuyoshiGames" target="_blank">Tsuyoshi Games</a></li>
-                        </ul>
-                    </section>
-                    <div id="gambiarra-flex">
-                        <section id="sec-tags">
-                            <h3>TAGS</h3>
-                            <p>
-                                <a href="#" class="text-14px">Ação</a> <a href="#" class="text-19px">Anime</a> <a href="#" class="text-10px">Artes Marciais</a> <a href="#" class="text-14px">Aventura</a> <a href="#" class="text-19px">Comédia</a> <a href="#" class="text-12px">Demônios</a>
-                                
-                                <a href="#" class="text-14px">Drama</a> <a href="#" class="text-12px">Ecchi</a> <a href="#" class="text-14px">Escolar</a> <a href="#" class="text-12px">Especial</a> <a href="#" class="text-12px">Culinária</a> <a href="#" class="text-12px">Esportes</a> <a href="#" class="text-14px">Fantasia</a> <a href="#" class="text-12px">Harém</a>
-                                
-                                <a href="#" class="text-12px">Histórico</a> <a href="#" class="text-14px">Horror</a> <a href="#" class="text-14px">Informação</a> <a href="#" class="text-10px">Jogo</a> <a href="#" class="text-12px">Josei</a> <a href="#" class="text-12px">Magia</a> <a href="#" class="text-14px">Mangá</a> <a href="#" class="text-10px">Mecha</a> <a href="#" class="text-12px">Militar</a>
-                                
-                                <a href="#" class="text-14px">Mistério</a> <a href="#" class="text-09px">Moda</a> <a href="#" class="text-12px">Música</a> <a href="#" class="text-14px">NSP Recomenda</a> <a href="#" class="text-14px">Outros</a> <a href="#" class="text-10px">Paródia</a> <a href="#" class="text-10px">Policial</a>
-                                
-                                <a href="#" class="text-12px">Psícológico</a> <a href="#" class="text-19px">Resenha</a> <a href="#" class="text-12px">Review</a> <a href="#" class="text-14px">Romance</a> <a href="#" class="text-14px">Sci-fi</a> <a href="#" class="text-14px">Seinen</a> <a href="#" class="text-12px">Shoujo</a>
-                                
-                                <a href="#" class="text-10px">Shoujo Ai</a> <a href="#" class="text-14px">Shounen</a> <a href="#" class="text-10px">Shounen Ai</a> <a href="#" class="text-14px">Slice of Life</a> <a href="#" class="text-14px">Sobrenatural</a> <a href="#" class="text-10px">Sorteio</a>
-                                
-                                <a href="#" class="text-12px">Super Poderes</a> <a href="#" class="text-12px">Suspense</a> <a href="#" class="text-09px">TUDO sobre</a> <a href="#" class="text-10px">Vampiros</a> <a href="#" class="text-12px">Yaoi</a> <a href="#" class="text-10px">Yuri</a>
-                            </p>
-                        </section>
-                        <section id="sec-views">
-                            <h3>TOTAL DE VISUALIZAÇÕES DO BLOG</h3>
-                            <p>2,172,954</p>
-                        </section>
-                    </div>
-                </div>
-            </div>
+            
         </aside>
 
         <footer>
             <p><a href="#">Não é minha culpa que não sou popular</a> - Tecnologia do <a href="https://www.blogger.com/about/" target="_blank">Blooger</a></p>
         </footer>
+
+        <!-- script em JS por último para carregar primeiro a página -->
+        <script>
+            function clickMenu() {
+                if(navbar.style.display == 'block') {
+                    navbar.style.display = 'none';
+
+                } else {
+                    navbar.style.display = 'block';
+                }
+            }
+        </script>
     </body>
 </html>
