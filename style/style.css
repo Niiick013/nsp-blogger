@@ -159,6 +159,11 @@ aside#content-aside {
     width: 100%;
 }
 
+aside#content-aside > article {
+    padding-top: 5px;
+    
+}
+
 aside#content-aside h2 {
     display: block;
     cursor: pointer;
@@ -179,35 +184,39 @@ aside#content-aside h2:hover {
 }
 
 aside#content-aside article ul {
-    display: none;
+    display: block;
     list-style-position: inside;
     list-style-type: none;
 }
 
 aside#content-aside article ul li {
     text-align: center;
-    background-color: rgb(20, 20, 20);
-    border-top: 2px solid gray;
+    background-color: var(--cor0);
+    
+}
+
+li.link-linha {
+    border-bottom: 2px solid var(--cor3);
 }
 
 aside#content-aside article ul li a {
     display: block;
     padding: 5px;
-    color: white;
+    color: var(--cor3);
     font-size: 12px;
     font-weight: bold;
     line-height: 18px;
     text-decoration: none;
-    
 }
 
 aside#content-aside article > ul > li > a:hover {
-    background-color: rgb(90, 90, 90);
+    color: var(--cor3);    
+    background-color: var(--cor1);
     
 }
 
 div#psItens {
-    display: none;
+    display: block;
 }
 
 div.ps-item {
@@ -241,7 +250,7 @@ div.ps-item h4 {
 }
 
 section#ltcontainer {
-    display: none;
+    display: block;
     width: 100%;
     margin: auto;
 }
