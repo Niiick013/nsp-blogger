@@ -1,10 +1,82 @@
 @charset "UTF-8";
 
-/* Typical Devices Breakpoints
--------------------------------
-Mobile: 320px — 480px.
-Tablets: 481px — 768px.
-Laptops: 769px — 1024px.
-Desktops: 1025px — 1200px.
-TV: 1201px, and more.
+/* Typical Device Breakpoints
+--------------------------------
+Pequenas Telas: até 600px
+Celular: 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes Telas: acima de 1200px
 */
+
+:root { /* variáveis*/
+    --cor0: #F3F3F3;
+    --cor1: #E3E3E3;
+    --cor2: #BDBDBD;
+    --cor3: #666666;
+    --cor4: #444444;
+}
+
+/* TABLETS */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    header span#burguer {
+        display: none;
+    }
+
+    menu#navbar {
+        width: 100vw;
+        display: block;
+        position: fixed;
+        background-color: black;
+    }
+
+    menu#navbar ul {
+        width: max-content;
+        margin: auto;
+    }
+
+    menu#navbar li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+    menu#navbar li a {
+        border: none;
+        background-color: black;
+    }
+
+    menu#navbar li a:hover {
+        color: var(--cor2);
+        transition: 0.4s;
+    }
+
+    picture#img-header img {
+        width: 80vw;
+        padding-top: 40px;
+    }
+
+    main#content {
+        width: 80vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    section#content-main {
+        width: 65%;
+    }
+
+    aside#content-aside {
+        width: 35%;
+        float: right;
+    }
+
+    div.ps-item a {
+        width: 100%;
+    }
+
+    aside#aside-inferior {
+        width: 80vw;
+    }
+
+
+}

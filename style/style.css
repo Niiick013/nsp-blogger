@@ -217,6 +217,12 @@ aside#content-aside article > ul > li > a:hover {
     
 }
 
+div#ps-container {
+    margin: auto;
+    width: max-content;
+    background-color: transparent;
+}
+
 div#psItens {
     display: block;
 }
