@@ -186,7 +186,7 @@ aside#content-aside h2:hover {
 }
 
 aside#content-aside article ul {
-    display: none;
+    display: block;
     list-style-position: inside;
     list-style-type: none;
 }
@@ -218,7 +218,7 @@ aside#content-aside article > ul > li > a:hover {
 }
 
 div#psItens {
-    display: none;
+    display: block;
 }
 
 div.ps-item {
@@ -252,7 +252,7 @@ div.ps-item h4 {
 }
 
 section#ltcontainer {
-    display: none;
+    display: block;
     width: 100%;
     margin: auto;
 }
@@ -300,7 +300,6 @@ aside#aside-inferior h3 {
 
 div#asideinf-main {
     padding-top: 5px;
-    background-color: ;
 }
 
 aside#aside-inferior h3:hover {
@@ -317,7 +316,7 @@ aside#aside-inferior li {
 }
 
 section#parceiros ul {
-    display: none;
+    display: block;
 }
 
 section#parceiros a {
@@ -358,7 +357,7 @@ section#tags a:hover {
 }
 
 section#views p {
-    display: none;
+    display: block;
     color: var(--cor3);
     padding: 5px;
     font-size: 24px;
