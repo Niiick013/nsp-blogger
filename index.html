@@ -14,7 +14,7 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <title>Não é minha culpa que não sou popular!</title>
     </head>
-    <body>
+    <body onload="veriricarResolucao()">
         <header> <!-- cabeçalho -->
             <span id="burguer" class="material-icons" onclick="clickMenu(navbar)">menu</span>
             <menu id="navbar">
@@ -156,7 +156,7 @@
             <!-- conteúdo lateral / secundário -->
             <aside id="content-aside">
                 <article id="primeiro"> <!-- links -->
-                    <h2 onclick="clickMenu(linkAdd)">LINKS</h2>
+                    <h2 id="linkAddOrigin" onclick="clickMenu(linkAdd)">LINKS</h2>
                     <ul id="linkAdd">
                         <li class="link-linha"><a href="https://linktr.ee/naosoupopularrr" target="_blank">Linktree</a></li>
                         <li class="link-linha"><a href="https://twitter.com/naosoupopularrr" target="_blank">Twitter</a></li>
@@ -168,7 +168,7 @@
                 </article>
 
                 <article> <!-- populares da semana -->
-                    <h2 onclick="clickMenu(psItens)">POPULARES DA SEMANA</h2>
+                    <h2 id="psItensOrigin" onclick="clickMenu(psItens)">POPULARES DA SEMANA</h2>
                     <div id="psItens">
                         <div id="ps-container">
                             <div class="ps-item">
@@ -236,7 +236,7 @@
                 </article>
 
                 <article> <!-- leia também -->
-                    <h2 onclick="clickMenu(ltcontainer)">LEIA TAMBÉM</h2>
+                    <h2 id="ltContainerOrigin" onclick="clickMenu(ltcontainer)">LEIA TAMBÉM</h2>
                     <section id="ltcontainer">
                         <div id="lt-items">
                             <div class="lt-item">
@@ -298,7 +298,7 @@
         <aside id="aside-inferior"> 
             <div id="asideinf-main">
                 <section id="parceiros">
-                    <h3 onclick="clickMenu(parceirosMain)">PARCEIROS</h3>
+                    <h3 id="parceirosOrigin" onclick="clickMenu(parceirosMain)">PARCEIROS</h3>
                     <ul id="parceirosMain">
                         <li><a href="http://www.animecot.com" target="_blank">AnimeCote</a></li>
                         <li><a href="https://animesgratis.net" target="_blank">Animes Online</a></li>
@@ -316,7 +316,7 @@
 
                 <div id="asideinf-right">
                     <section id="tags">
-                        <h3 onclick="clickMenu(tagsMain)">TAGS</h3>
+                        <h3 id="tagsOrigin" onclick="clickMenu(tagsMain)">TAGS</h3>
                         <p id="tagsMain">
                             <a href="#" class="text-14px">Ação</a> <a href="#" class="text-19px">Anime</a> <a href="#" class="text-10px">Artes Marciais</a> <a href="#" class="text-14px">Aventura</a> <a href="#" class="text-19px">Comédia</a> <a href="#" class="text-12px">Demônios</a>
                             
@@ -335,19 +335,42 @@
                     </section>
 
                     <section id="views">
-                        <h3 onclick="clickMenu(viewsp)">TOTAL DE VISUALIZAÇÕES DO BLOG</h3>
+                        <h3 id="viewsOrigin" onclick="clickMenu(viewsp)">TOTAL DE VISUALIZAÇÕES DO BLOG</h3>
                         <p id="viewsp">2,172,954</p>
                     </section>
                 </div>
             </div>
         </aside>
 
+        <!-- rodapé -->
         <footer>
             <p><a href="#">Não é minha culpa que não sou popular</a> - Tecnologia do <a href="https://www.blogger.com/about/" target="_blank">Blooger</a></p>
         </footer>
 
         <!-- script em JS por último para carregar primeiro a página -->
         <script>
+            function veriricarResolucao() {
+                // a variável recebe o valor da largura da tela
+                var larguraDaTela = window.innerWidth;
+
+                if(larguraDaTela >= 768 && larguraDaTela < 992) {
+                    alert("tablet");
+                    // desativa evendo de ocultar conteúdo do aside lateral
+                    document.getElementById("linkAddOrigin").onclick = null;
+                    document.getElementById("psItensOrigin").onclick = null;
+                    document.getElementById("ltContainerOrigin").onclick = null;
+
+                    // desativa evendo de ocultar conteúdo do aside inferior
+                    document.getElementById("parceirosOrigin").onclick = null;
+                    document.getElementById("tagsOrigin").onclick = null;
+                    document.getElementById("viewsOrigin").onclick = null;
+
+                    // exibe o campo de tags
+                    document.getElementById("tagsMain").style.display = "block";
+
+                }
+            }
+
             function clickMenu(nome) {
                 if(nome.style.display == 'block') {
                     nome.style.display = 'none';

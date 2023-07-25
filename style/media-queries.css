@@ -19,6 +19,7 @@ Grandes Telas: acima de 1200px
 
 /* TABLETS */
 @media screen and (min-width: 768px) and (max-width: 992px) {
+    /* header */
     header span#burguer {
         display: none;
     }
@@ -51,32 +52,73 @@ Grandes Telas: acima de 1200px
     }
 
     picture#img-header img {
-        width: 80vw;
+        width: 85vw;
         padding-top: 40px;
     }
 
+    /* main */
     main#content {
-        width: 80vw;
+        width: 85vw;
         display: flex;
         flex-wrap: wrap;
     }
 
     section#content-main {
         width: 65%;
+        margin-right: 10px;
     }
 
+    /* aside lateral */
     aside#content-aside {
-        width: 35%;
+        width: 33%;
         float: right;
     }
 
-    div.ps-item a {
+    aside#content-aside h2:hover {
+        cursor: auto;
+        color: white;
+        background-color: black;
+    }
+
+    li.link-linha {
+        border: none;
+    }
+
+    ul#linkAdd {
+        width: max-content;
+        margin: auto;
+    }
+
+    aside#content-aside article ul li {
+        width: max-content;
+        list-style-type: disc;
+    }
+
+    aside#content-aside article ul li a {
+        display: inline-block;
+        padding: 5px;
+    }
+
+    aside#content-aside article ul li a:hover {
+        text-decoration: underline;
+    }
+
+    div#ps-container {
         width: 100%;
     }
 
-    aside#aside-inferior {
-        width: 80vw;
+    aside#content-aside h4 {
+        margin-top: 13px;
     }
 
+    /*aside inferior */
+    aside#aside-inferior {
+        width: 85vw;
+    }
 
-}
+    div#asideinf-main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+} /* end tablets */
