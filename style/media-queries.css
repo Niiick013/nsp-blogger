@@ -85,22 +85,26 @@ Grandes Telas: acima de 1200px
     }
 
     ul#linkAdd {
+        margin-top: 5px;
         width: max-content;
-        margin: auto;
+        margin-left: 20px;
     }
 
     aside#content-aside article ul li {
         width: max-content;
+        color: var(--cor3);
         list-style-type: disc;
     }
 
     aside#content-aside article ul li a {
         display: inline-block;
+        color: var(--cor3);
         padding: 5px;
     }
 
     aside#content-aside article ul li a:hover {
         text-decoration: underline;
+        background-color: var(--cor1);
     }
 
     div#ps-container {
@@ -116,9 +120,86 @@ Grandes Telas: acima de 1200px
         width: 85vw;
     }
 
+    aside#aside-inferior h3:hover {
+        cursor: auto;
+        color: white;
+        background-color: black;
+    }
+
     div#asideinf-main {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    section#parceiros {
+        width: 44%;
+        margin-right: 20px;
+    }
+
+    section#parceiros ul {
+        width: max-content;
+        margin-left: 25px;
+    }
+
+    section#parceiros ul li {
+        border: none;
+        width: max-content;
+        color: var(--cor3);
+        list-style-type: disc;
+    }
+
+    section#parceiros ul li a {
+        display: inline-block;
+        color: var(--cor3);
+    }
+
+    section#parceiros ul li a:hover {
+        text-decoration: underline;
+        background-color: var(--cor1);
+    }
+
+    div#asideinf-right {
+        width: 52%;
+    }
+
+    section#tags p {
+        display: block;
+        margin: auto;
+        text-align: justify;
+        line-height: 17.3px;
+    }
+
+    section#tags a {
+        display: inline-block;
+        border: none;
+        padding: 5px;        
+    }
+
+    section#tags a:hover {
+        color: var(--cor4);
+        border-radius: 5px;
+        text-decoration: underline;
+        background-color: var(--cor1);
+    }
+
+    section#tags a.text-19px {
+        font-size: 19px;
+    }
+    
+    section#tags a.text-14px {
+        font-size: 14px;
+    }
+    
+    section#tags a.text-12px {
+        font-size: 12px;
+    }
+    
+    section#tags a.text-10px {
+        font-size: 10px;
+    }
+    
+    section#tags a.text-09px {
+        font-size: 9px;
     }
 
 } /* end tablets */

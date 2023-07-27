@@ -359,7 +359,10 @@
                 // a variável recebe o valor da largura da tela
                 var larguraDaTela = window.innerWidth;
 
-                if(larguraDaTela >= 768 && larguraDaTela < 992) {
+                if(larguraDaTela < 768) {
+                    alert("mobile");
+
+                } else if(larguraDaTela >= 768 && larguraDaTela < 992) {
                     alert("tablet");
                     // desativa evendo de ocultar conteúdo do aside lateral
                     document.getElementById("linkAddOrigin").onclick = null;
