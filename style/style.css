@@ -169,7 +169,7 @@ nav#nav-inferior a {
 }
 
 nav#nav-inferior a:hover {
-    color: var(--cor4);
+    color: black;
     border-color: var(--cor4);
 }
 
@@ -184,6 +184,60 @@ nav#nav-inferior a#txt-pa {
 /* aside lateral */
 aside#content-aside {
     width: 100%;
+}
+
+/* barra de pesquisa */
+div#search-box {
+    display: none;
+    width: 100%;
+    position: relative;
+    background-color: red;
+}
+
+input#search-txt {
+    border: none;
+    padding: 7px;
+    margin: 0;
+    outline: none;
+    color: white;
+    background-color: var(--cor1);
+}
+
+input#search-txt::placeholder {
+    color: white;
+}
+
+input#search-txt:focus-visible {
+    background-color: var(--cor2);
+}
+
+/* clears the 'X' from Chrome */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
+
+div#search-box i {
+    position: absolute;
+    top: 10%;
+    right: 75px;
+    padding: 5px;
+    color: white;
+}
+
+button#search-btn {
+    position: absolute;
+    cursor: pointer;
+    padding: 5px;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    margin-left: -5px;
+    background-color: black;
+    border: 2px solid black;
+
 }
 
 /*
@@ -210,6 +264,47 @@ aside#content-aside h2 {
 aside#content-aside h2:hover {
     color: black;
     background-color: whitesmoke;
+}
+
+article#participe p {
+    margin-top: 7px;
+    margin-left: 4px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+article#participe > div#pt-container-img {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 2px;
+    margin: auto;
+}
+
+article#participe .participe-img {
+    width: 25px;
+    margin: 0 2px 2px 2px;
+    padding: 2px;
+    border: 1px solid black;
+    
+}
+
+article#participe button {
+    margin-left: 5px;
+    cursor: pointer;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 3px 10px;
+    font-size: 0.9em;
+    font-weight: bold;
+    background-color: #68ABE8;
+    border: 1px solid #4B80F6;
+    
+}
+
+article#participe button:hover {
+    transition: 0.7s;
+    background-color: #4B80F6;
 }
 
 aside#content-aside article ul {
@@ -415,6 +510,7 @@ footer {
 }
 
 footer > p > a {
+    font-weight: bold;
     color: var(--cor4);
     text-decoration: none;
 }
