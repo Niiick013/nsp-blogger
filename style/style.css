@@ -272,8 +272,10 @@ article#participe p {
     font-size: 0.8em;
     font-weight: bold;
 }
-
-article#participe > div#pt-container-img {
+#participeContain {
+    display: block;
+}
+article#participe > div#ptContainerImg {
     display: flex;
     flex-wrap: wrap;
     padding: 0 2px;

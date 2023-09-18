@@ -8,6 +8,7 @@ function veriricarResolucao() {
         document.getElementById("linkAddOrigin").onclick = null;
         document.getElementById("psItensOrigin").onclick = null;
         document.getElementById("ltContainerOrigin").onclick = null;
+        document.getElementById("participeOrigin").onclick = null;
 
         // desativa evendo de ocultar conteúdo do aside inferior
         document.getElementById("parceirosOrigin").onclick = null;
@@ -23,6 +24,7 @@ function veriricarResolucao() {
         document.getElementById("linkAddOrigin").onclick = null;
         document.getElementById("psItensOrigin").onclick = null;
         document.getElementById("ltContainerOrigin").onclick = null;
+        document.getElementById("participeOrigin").onclick = null;
 
         // desativa evendo de ocultar conteúdo do aside inferior
         document.getElementById("parceirosOrigin").onclick = null;
