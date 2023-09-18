@@ -4,6 +4,7 @@
 
 ## 🔖 Informações
 <ul>
+    <li>O projeto tem o intuito de melhorar um design utilizando técnicas de programação para aperceiçoar habilidades de estudo da área.</li>
     <li>Projeto com conteúdo do blog original, apresentação e links de forma responsiva utilizando Media Queries</li>
     <li>🖱️ <a href="https://marceloisidorio.github.io/nsp-blogger/" target="_blank">Clique aqui</a> para acessar o projeto desenvolvido.</li>
     <li>Confira também o <a href="http://naoeminhaculpaquenaosoupopular.blogspot.com">Blog Oficial da autora!</a> :earth_americas:</li>
@@ -21,13 +22,18 @@
     <img alt="CSS" height="100" width="100" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 </a>
 
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank">
+    <img alt="JS" height="100" width="100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png?20141107110902">
+</a>
+
 ### :memo: Sobre
-- Destaca o cabeçalho com menu e apresentação da marca
-- Exibe as últimas postagens publicadas
-- Possui barra de pesquisa
-- Contém barra lateral com conteúdos periféricos
-- Aside inferior e footer no fim da página
-- Efeitos em links e caixas
+- Estilo feito utilizando a técnica Mobile First
+- O projeto possui conteúdo de forma estática no HTML
+- É utilizado um pouco de JS para a manipulação dos botões
+- Conteito de Media Queries aplicado para variados dispositivos
+- Explora um layout geralmente utilizado em blogs
+- Imagens e ícones originais foram extraídos da página oficial
+- Créditos referentes a imagens e conteúdos dedicados a autora
 # :hammer_and_wrench: Como rodar localmente
 
 ```bash
